@@ -1,0 +1,11 @@
+fileVersion: 1
+id: "2"
+mappingDefinitions:
+  SAMPLE:
+    database: COALESCE_SAMPLE_DATABASE
+    schema: TPCH_SF001
+  WORK:
+    database: BEN_EDW
+    schema: CANARY_EMPTY
+name: 7.1 Regression Environment
+type: Environment
