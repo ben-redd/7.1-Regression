@@ -56,7 +56,7 @@ operation:
           - columnReferences:
               - columnCounter: 65aadde2-4190-483d-bad5-7bc712baf9f4
                 stepCounter: c19d377e-2e60-4753-8e07-3a3482639256
-            transform: “pikachu”
+            transform: ""
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 564356ff-edf8-4580-b040-d7b93ae82829
@@ -160,7 +160,7 @@ operation:
           columnCounter: a9138cab-7da9-44be-b9ab-d03eac7b419a
           stepCounter: eb4d913f-4fcc-4a32-b5f8-d567a4e37648
         config: {}
-        dataType: VARCHAR(79)
+        dataType: Pikachu
         description: ""
         name: O_COMMENT
         nullable: false
