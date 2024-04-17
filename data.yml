@@ -11,7 +11,7 @@ locations:
     mappingDefinitions:
       "2":
         database: BEN_EDW
-        schema: 7.1_Regression_ENV
+        schema: CANARY_EMPTY
 macros: {}
 packages: {}
 projects: {}
