@@ -6,7 +6,7 @@ mappingDefinitions:
     schema: TPCH_SF001
   TEST:
     database: BEN_EDW
-    schema: SMOKE
+    schema: 7.1 Regression Testing 3rd Env location
   WORK:
     database: BEN_EDW
     schema: CANARY_EMPTY
