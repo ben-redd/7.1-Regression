@@ -56,7 +56,7 @@ operation:
           - columnReferences:
               - columnCounter: 65aadde2-4190-483d-bad5-7bc712baf9f4
                 stepCounter: c19d377e-2e60-4753-8e07-3a3482639256
-            transform: ""
+            transform: lkjfasl
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 564356ff-edf8-4580-b040-d7b93ae82829
