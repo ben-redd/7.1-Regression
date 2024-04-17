@@ -155,20 +155,6 @@ operation:
               - columnCounter: 10e1782b-994c-436f-a728-980c30c7a433
                 stepCounter: c19d377e-2e60-4753-8e07-3a3482639256
             transform: ""
-      - appliedColumnTests: {}
-        columnReference:
-          columnCounter: a9138cab-7da9-44be-b9ab-d03eac7b419a
-          stepCounter: eb4d913f-4fcc-4a32-b5f8-d567a4e37648
-        config: {}
-        dataType: Pikachu
-        description: ""
-        name: O_COMMENT
-        nullable: false
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: ef587919-d97f-4ff9-b319-9683076b6773
-                stepCounter: c19d377e-2e60-4753-8e07-3a3482639256
-            transform: ""
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
