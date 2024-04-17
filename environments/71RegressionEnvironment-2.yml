@@ -4,6 +4,9 @@ mappingDefinitions:
   SAMPLE:
     database: COALESCE_SAMPLE_DATABASE
     schema: TPCH_SF001
+  TEST:
+    database: BEN_EDW
+    schema: SMOKE
   WORK:
     database: BEN_EDW
     schema: CANARY_EMPTY
