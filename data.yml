@@ -1,7 +1,11 @@
 defaultStorageMapping: WORK
 installedPackages: {}
 jobs: {}
-locations: {}
+locations:
+  SAMPLE:
+    mappingDefinitions: {}
+  WORK:
+    mappingDefinitions: {}
 macros: {}
 packages: {}
 projects: {}

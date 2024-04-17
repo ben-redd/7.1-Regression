@@ -1,0 +1,78 @@
+steps:
+  NATION-fad7026c-87fa-4bcb-98a7-499792f62113:
+    operation:
+      database: ""
+      dataset: ""
+      deployEnabled: true
+      description: ""
+      locationName: SAMPLE
+      metadata:
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 213ef05d-6c96-4b90-ac63-87cdd5af6069
+              stepCounter: fad7026c-87fa-4bcb-98a7-499792f62113
+            config: {}
+            dataType: NUMBER(38,0)
+            defaultValue: ""
+            description: ""
+            name: N_NATIONKEY
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 8ea897d4-752d-46a9-8f00-48128a7eeb7a
+              stepCounter: fad7026c-87fa-4bcb-98a7-499792f62113
+            config: {}
+            dataType: VARCHAR(25)
+            defaultValue: ""
+            description: ""
+            name: N_NAME
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 92f8aec0-1cf5-41c1-b650-c88d630cbdd2
+              stepCounter: fad7026c-87fa-4bcb-98a7-499792f62113
+            config: {}
+            dataType: NUMBER(38,0)
+            defaultValue: ""
+            description: ""
+            name: N_REGIONKEY
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 460256b9-7fc5-41c0-a22c-0d7dc35de8bc
+              stepCounter: fad7026c-87fa-4bcb-98a7-499792f62113
+            config: {}
+            dataType: VARCHAR(152)
+            defaultValue: ""
+            description: ""
+            name: N_COMMENT
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+        join:
+          joinCondition: FROM {{ ref('SAMPLE', 'NATION') }}
+      name: NATION
+      schema: ""
+      sqlType: Source
+      table: NATION
+      type: sourceInput
+    stepCounter: fad7026c-87fa-4bcb-98a7-499792f62113
