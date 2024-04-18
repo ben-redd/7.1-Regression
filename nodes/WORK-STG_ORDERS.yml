@@ -1,5 +1,5 @@
 fileVersion: 1
-id: c19d377e-2e60-4753-8e07-3a3482639256
+id: 3c614a30-35de-4627-b3ed-7f1b0b3604d1
 name: STG_ORDERS
 operation:
   config:
@@ -16,14 +16,14 @@ operation:
     this is to exercise the capabilities of the DBMS to handle "dead data" when joining two or more tables.
   isMultisource: false
   locationName: WORK
-  materializationType: table
+  materializationType: view
   metadata:
     appliedNodeTests: []
     columns:
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 65aadde2-4190-483d-bad5-7bc712baf9f4
-          stepCounter: c19d377e-2e60-4753-8e07-3a3482639256
+          columnCounter: bdc7e172-08a1-4b94-ae02-8a95cca9bece
+          stepCounter: 3c614a30-35de-4627-b3ed-7f1b0b3604d1
         config: {}
         dataType: NUMBER(38,0)
         description: SF*1,500,000 are sparsely populated
@@ -36,8 +36,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: bfea1403-dfd2-4c4a-940b-484c543c5c0e
-          stepCounter: c19d377e-2e60-4753-8e07-3a3482639256
+          columnCounter: 12808f62-6ae3-4c8c-8b9a-a312b630fe5b
+          stepCounter: 3c614a30-35de-4627-b3ed-7f1b0b3604d1
         config: {}
         dataType: NUMBER(38,0)
         description: Foreign Key to C_CUSTKEY
@@ -50,8 +50,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 27fa14de-b78c-413f-825e-a28caf0e6758
-          stepCounter: c19d377e-2e60-4753-8e07-3a3482639256
+          columnCounter: 513252c1-7783-483d-b486-27db9862d484
+          stepCounter: 3c614a30-35de-4627-b3ed-7f1b0b3604d1
         config: {}
         dataType: VARCHAR(1)
         description: ""
@@ -64,8 +64,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: d1dfea29-718c-47bc-83ec-ef0cc553e06d
-          stepCounter: c19d377e-2e60-4753-8e07-3a3482639256
+          columnCounter: 60610278-b8c8-4958-8248-ac9b5e189168
+          stepCounter: 3c614a30-35de-4627-b3ed-7f1b0b3604d1
         config: {}
         dataType: NUMBER(12,2)
         description: ""
@@ -78,8 +78,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: a08063b1-993a-4eec-a901-6d53110050e3
-          stepCounter: c19d377e-2e60-4753-8e07-3a3482639256
+          columnCounter: 6cdffe62-4069-4faa-972a-4deb00e6aeae
+          stepCounter: 3c614a30-35de-4627-b3ed-7f1b0b3604d1
         config: {}
         dataType: DATE
         description: ""
@@ -92,8 +92,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: b2e287ee-cea2-42a6-85e2-2bf92cf59bb8
-          stepCounter: c19d377e-2e60-4753-8e07-3a3482639256
+          columnCounter: b405d003-646c-46bd-8965-60484522a477
+          stepCounter: 3c614a30-35de-4627-b3ed-7f1b0b3604d1
         config: {}
         dataType: VARCHAR(15)
         description: ""
@@ -106,8 +106,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 3d47a3d4-4c99-4690-bb0b-073cdd5dbd1d
-          stepCounter: c19d377e-2e60-4753-8e07-3a3482639256
+          columnCounter: 8ff666c2-c4d2-4d30-b827-6fa7dff49b86
+          stepCounter: 3c614a30-35de-4627-b3ed-7f1b0b3604d1
         config: {}
         dataType: VARCHAR(15)
         description: ""
@@ -120,8 +120,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 10e1782b-994c-436f-a728-980c30c7a433
-          stepCounter: c19d377e-2e60-4753-8e07-3a3482639256
+          columnCounter: 70491c36-3d94-4c09-bdce-971f19baa85e
+          stepCounter: 3c614a30-35de-4627-b3ed-7f1b0b3604d1
         config: {}
         dataType: NUMBER(38,0)
         description: ""
@@ -134,8 +134,8 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: ef587919-d97f-4ff9-b319-9683076b6773
-          stepCounter: c19d377e-2e60-4753-8e07-3a3482639256
+          columnCounter: 5d7ab27d-bfd1-4d5f-8223-0535b17d720d
+          stepCounter: 3c614a30-35de-4627-b3ed-7f1b0b3604d1
         config: {}
         dataType: VARCHAR(79)
         description: ""
@@ -146,27 +146,6 @@ operation:
               - columnCounter: ded5e562-99b7-4723-81a9-76125ea7d91b
                 stepCounter: 0ccd13ab-d722-4b92-be6a-1196233c7ee3
             transform: ""
-      - acceptedValues:
-          strictMatch: true
-          values: []
-        appliedColumnTests: {}
-        columnReference:
-          columnCounter: 034b369a-68d1-4c09-a5c2-af517308c2ac
-          stepCounter: c19d377e-2e60-4753-8e07-3a3482639256
-        config: {}
-        dataType: NUMBER
-        defaultValue: "5"
-        description: ""
-        keyColumnType: None
-        name: DAYS_TO_SHIP
-        nullable: false
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: "0"
-                stepCounter: "0"
-            transform: DATEDIFF('DAY',"STG_ORDERS"."O_ORDERDATE","STG_LINEITEM"."L_SHIPDATE")
-        systemColumnType: None
-        transform: ""
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
