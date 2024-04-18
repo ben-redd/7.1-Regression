@@ -3,7 +3,7 @@ id: "2"
 mappingDefinitions:
   SAMPLE:
     database: COALESCE_SAMPLE_DATABASE
-    schema: TPCH_SF001
+    schema: RAINFOREST_SAMPLE
   WORK:
     database: BEN_EDW
     schema: 7.1_Regression_ENV
