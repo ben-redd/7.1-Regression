@@ -4,11 +4,8 @@ mappingDefinitions:
   SAMPLE:
     database: COALESCE_SAMPLE_DATABASE
     schema: TPCH_SF001
-  TEST:
-    database: BEN_EDW
-    schema: ""
   WORK:
     database: BEN_EDW
-    schema: CANARY_EMPTY
+    schema: 7.1_Regression_ENV
 name: 7.1 Regression Environment
 type: Environment
