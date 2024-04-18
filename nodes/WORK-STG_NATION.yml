@@ -44,7 +44,7 @@ operation:
           - columnReferences:
               - columnCounter: 2e10cf57-72c1-4c42-9452-7b21cf4ebc45
                 stepCounter: 18cff970-4720-4750-827b-d17c2d5d3468
-            transform: LOWER("NATION"."N_NAME")
+            transform: UPPER("NATION"."N_NAME")
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 39253334-475d-48ad-a11e-d80054f02d5c
