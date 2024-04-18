@@ -13,7 +13,7 @@ operation:
   description: ""
   isMultisource: false
   locationName: WORK
-  materializationType: table
+  materializationType: view
   metadata:
     appliedNodeTests: []
     columns:
@@ -28,8 +28,8 @@ operation:
         nullable: false
         sourceColumnReferences:
           - columnReferences:
-              - columnCounter: a47a690b-af5f-4793-baec-5cefe0f911e2
-                stepCounter: f94c4a65-aec0-4adb-b90b-f817aade141e
+              - columnCounter: 01f4b65e-354e-4ac8-8f29-2f0e83160fdb
+                stepCounter: e670d039-ad9b-4c7e-84b4-be09085fec32
             transform: ""
       - appliedColumnTests: {}
         columnReference:
@@ -42,8 +42,8 @@ operation:
         nullable: false
         sourceColumnReferences:
           - columnReferences:
-              - columnCounter: d44fab85-9fa3-42e9-88ea-5efbdc6149c5
-                stepCounter: f94c4a65-aec0-4adb-b90b-f817aade141e
+              - columnCounter: ef1fd1d6-9328-4520-ba66-2af8bede2baa
+                stepCounter: e670d039-ad9b-4c7e-84b4-be09085fec32
             transform: ""
       - appliedColumnTests: {}
         columnReference:
@@ -56,8 +56,8 @@ operation:
         nullable: false
         sourceColumnReferences:
           - columnReferences:
-              - columnCounter: 7fb4827b-02ff-41c3-a0a8-db892d7603f0
-                stepCounter: f94c4a65-aec0-4adb-b90b-f817aade141e
+              - columnCounter: fdc42fc9-1830-4e8f-9c42-13328a27811a
+                stepCounter: e670d039-ad9b-4c7e-84b4-be09085fec32
             transform: ""
       - appliedColumnTests: {}
         columnReference:
@@ -70,8 +70,8 @@ operation:
         nullable: false
         sourceColumnReferences:
           - columnReferences:
-              - columnCounter: 75e445d4-5e11-4c49-8d53-0bb179bde985
-                stepCounter: f94c4a65-aec0-4adb-b90b-f817aade141e
+              - columnCounter: da584c44-a268-4051-9b71-4cda302732dd
+                stepCounter: e670d039-ad9b-4c7e-84b4-be09085fec32
             transform: ""
       - appliedColumnTests: {}
         columnReference:
@@ -84,8 +84,8 @@ operation:
         nullable: false
         sourceColumnReferences:
           - columnReferences:
-              - columnCounter: 92780fb2-4b23-4f3f-9d3d-cacb34e75634
-                stepCounter: f94c4a65-aec0-4adb-b90b-f817aade141e
+              - columnCounter: 3119069e-3792-44f8-a281-c4ccd2d4b225
+                stepCounter: e670d039-ad9b-4c7e-84b4-be09085fec32
             transform: ""
       - appliedColumnTests: {}
         columnReference:
@@ -98,8 +98,8 @@ operation:
         nullable: false
         sourceColumnReferences:
           - columnReferences:
-              - columnCounter: e4f74fe0-ccc1-4c9e-a729-e03e1fb11536
-                stepCounter: f94c4a65-aec0-4adb-b90b-f817aade141e
+              - columnCounter: dd9908e9-04c2-4202-973e-eed586ef276a
+                stepCounter: e670d039-ad9b-4c7e-84b4-be09085fec32
             transform: ""
       - appliedColumnTests: {}
         columnReference:
@@ -112,35 +112,21 @@ operation:
         nullable: true
         sourceColumnReferences:
           - columnReferences:
-              - columnCounter: 29d125a0-2397-49c4-8e57-036fbafe5792
-                stepCounter: f94c4a65-aec0-4adb-b90b-f817aade141e
-            transform: ""
-      - appliedColumnTests: {}
-        columnReference:
-          columnCounter: f0e5ad6f-4b9a-49cc-8768-100d2fb9dede
-          stepCounter: fefc2d5e-477b-4919-9c01-0c7b0741ec0f
-        config: {}
-        dataType: VARCHAR(117)
-        description: ""
-        name: C_COMMENT
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: 2eafbd09-7247-42a2-a425-35015a4057db
-                stepCounter: f94c4a65-aec0-4adb-b90b-f817aade141e
+              - columnCounter: f01f1b26-cc9e-4e85-afaf-c4af1b341aef
+                stepCounter: e670d039-ad9b-4c7e-84b4-be09085fec32
             transform: ""
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
       - aliases:
-          STG_NODE_C: f94c4a65-aec0-4adb-b90b-f817aade141e
+          STG_NODE_A: e670d039-ad9b-4c7e-84b4-be09085fec32
         customSQL:
           customSQL: ""
         dependencies:
           - locationName: WORK
-            nodeName: STG_NODE_C
+            nodeName: STG_NODE_A
         join:
-          joinCondition: FROM {{ ref('WORK', 'STG_NODE_C') }} "STG_NODE_C"
+          joinCondition: FROM {{ ref('WORK', 'STG_NODE_A') }} "STG_NODE_A"
         name: STG_NODE_B
         noLinkRefs: []
   name: STG_NODE_B
