@@ -155,11 +155,11 @@ operation:
           stepCounter: c19d377e-2e60-4753-8e07-3a3482639256
         config: {}
         dataType: NUMBER
-        defaultValue: ""
+        defaultValue: "5"
         description: ""
         keyColumnType: None
         name: DAYS_TO_SHIP
-        nullable: true
+        nullable: false
         sourceColumnReferences:
           - columnReferences:
               - columnCounter: "0"
